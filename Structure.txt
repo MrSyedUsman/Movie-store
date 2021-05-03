@@ -1,0 +1,10 @@
+Application in Python to keep track of videos being borrowed from a
+video store.
+The program allows customers to list the videos available and to borrow them. It records whether a video is on the shelf or on loan, and if it is on
+loan, the date it is due to be returned. Customers can borrow up to two videos for 3 days.
+
+The main method in VideoTest creates a new VideoStore, then enters a loop that
+pops up a GUI with a menu: "Menu: L-List, B-Borrow, Q-Quit", so entering the
+appropriate letter causes the desired response. List, lists the titles of all the videos along with whether they are on the shelf or the due date if they are on loan. Quit, exits the application. Borrow, pops up further a GUI /window asking first the Customer's name, and then the title of the video he wishes to borrow. These are then passed to the VideoStore borrow method as borrow(name,title).
+
+The VideoStore borrow method(i.e. function) checks that the name and title match entries in the VideoStore arrays, and identifies the Customer and Video objects they correspond to. The Customer borrowvideo(Video v) method can then be called.
