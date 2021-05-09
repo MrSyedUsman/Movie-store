@@ -1,3 +1,6 @@
+Use of Object oriented programming / inherited classes / nested dictionary / lists are the key elements ofthis project.
+----------------------------------------------
+
 Application in Python to keep track of videos being borrowed from a
 video store.
 The program allows customers to list the videos available and to borrow them. It records whether a video is on the shelf or on loan, and if it is on
